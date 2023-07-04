@@ -1,0 +1,13 @@
+- Superclass constructors run before the subclass's constructor
+- Use 'super' to call specific constructors
+- super calls must be first
+- some constructor must be executed
+
+- overriding => subclass change the method that inherits from superclass
+- overloading => same method name but different parameters
+
+limiting access in inheritance
+- constructors are not inherited
+- public and protected members ara inherited by its subclass
+- private members are not inherited
+- final methods are inherited but cannot be overridden.

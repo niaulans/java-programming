@@ -1,0 +1,10 @@
+- polymorphism => a subclass can define their own unique behaviors and yet share
+some of the same behaviors of their superclass
+
+polymorphism key points
+- An object can have a superclass type, and a subclass instance.
+- Polymorphism object can only access the methods of their type (not their instance).
+  Casting is required in order to access the methods of their instance.
+- If a method is overriden by the subclass, the polymorphic object will execute the overriden
+  method at runtime
+- The instance operator is used to determine if an object is an instance of a certain class.

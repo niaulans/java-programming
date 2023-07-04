@@ -1,0 +1,7 @@
+collections => object that holds references of other objects
+
+collections framework:
+- set => unordered unique elements
+- list => ordered elements which can be accessed by position
+- queue => ordered elements for processing. Access in the order elements were added. (FIFO : first in, first out)
+- map => unordered unique key-value pairs

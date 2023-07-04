@@ -1,0 +1,14 @@
+- abstraction => something that exist but doesn't have concrete existence.
+              => template
+
+abstraction key points:
+- abstract classes and methods are templates that are meant to be implemented by their subclasses
+- classes and methods are declared abstract by using the abstract keyword
+- if a subclass extends from an abstract class, it must implement its abstract methods, or be declared abstract itself
+- abstract classes cannot be instantiated, it is only to be used as a superclass. if even one method in a class is abstract, the class must be declared abstract as well.
+
+interface key points:
+- interfaces cannot be instantiated
+- interfaces are implemented (not extended)
+- any class that implements an interface, must implement all of its methods or it must declare itself abstract
+- methods in an interface must be abstract (no explicit declaration needed) or default
